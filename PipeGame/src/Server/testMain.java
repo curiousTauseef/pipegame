@@ -21,7 +21,7 @@ public class testMain {
 		PrintWriter writer = null ;
 		
 		try {
-			writer = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\sean assis\\Desktop\\patam\\results.txt",true)),true);
+			writer = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\Gal\\Desktop\\patam1\\results.txt",true)),true);
 
 		} catch (IOException e) {
 			
