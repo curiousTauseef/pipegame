@@ -33,7 +33,7 @@ public class testMain {
 			PrintWriter pw =new PrintWriter(s.getOutputStream(),true);
 			BufferedReader fromserver = new BufferedReader(new InputStreamReader(s.getInputStream()));
 			String filename ="level"+String.valueOf(counter)+".txt";
-			BufferedReader fromfile = new BufferedReader(new FileReader("C:\\Users\\sean assis\\Desktop\\patam\\"+filename));//change this to the location of your files
+			BufferedReader fromfile = new BufferedReader(new FileReader("C:\\Users\\Gal\\Desktop\\patam1\\"+filename));//change this to the location of your files
 			String line =new String();
 			System.out.println("sending : " +filename);
 			while(!line.equals("done")) {
