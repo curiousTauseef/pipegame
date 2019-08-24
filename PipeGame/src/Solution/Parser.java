@@ -1,8 +1,9 @@
 package Solution;
 
 import Server.State;
+import java.util.ArrayList;
 
-public interface Parser<T,E> {
+public interface Parser<T> {
 	
-	public E BackTrace(State<T> state, State<T> goal);
+	public ArrayList<String> BackTrace(ArrayList<State<T>> state);
 }
