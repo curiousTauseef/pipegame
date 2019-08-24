@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import Searchable.MatrixChar;
 import Server.State;
 
-public class sulotionParser   {
+public class sulotionParser implements Parser<MatrixChar>  {
 	
 
 public ArrayList<String> BackTrace(ArrayList<State<MatrixChar>> backTrace) {
